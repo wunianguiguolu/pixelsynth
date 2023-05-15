@@ -62,6 +62,15 @@ models
 options
 scripts
 utils
-calc_errors_consistency_homo
-
+calc_errors_consistency_homography.py
+calc_errors_quality.py
+create_nerf_like_circles.py
+create_vid.py
+demo.py
+extract_code.py
+extract_pixcnn_orders.py
+extract_vqvae_dataset.py
+train_dpr.py
+train_lmconv.py
+train_vqvae.py
 ```

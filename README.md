@@ -34,3 +34,22 @@ Thanks to <a href="https://angelxuanchang.github.io/">Angel Chang</a> and <a hre
 and Richard Tucker and <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>,
 for allowing us to share frames from their datasets.
 Thanks to [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/) and [Ajay Jain](https://www.seas.upenn.edu/~nkolot/) for polished model repositories which were so helpful in this work. 
+
+### Code Organization
+statue
+├── images
+│   ├── IMG_2707.jpg
+│   ├── IMG_2708.jpg
+│   ├── ...
+│   └── IMG_2736.jpg
+└── images_2
+    ├── IMG_2707.png
+    ├── IMG_2708.png
+    ├── ...
+    ├── IMG_2736.png
+    └── label
+        ├── IMG_2707.png
+        ├── IMG_2708.png
+        ├── ...
+        └── IMG_2736.png
+

@@ -37,22 +37,6 @@ Thanks to [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/) and [Ajay Jain](https
 
 ### Code Organization
 ```
-statue
-├── images
-│   ├── IMG_2707.jpg
-│   ├── IMG_2708.jpg
-│   ├── ...
-│   └── IMG_2736.jpg
-└── images_2
-    ├── IMG_2707.png
-    ├── IMG_2708.png
-    ├── ...
-    ├── IMG_2736.png
-    └── label
-        ├── IMG_2707.png
-        ├── IMG_2708.png
-        ├── ...
-        └── IMG_2736.png
 data
 demo
 docs
@@ -60,13 +44,21 @@ evaluation
 geometry
 models
 ├── layers
-│   ├── IMG_2707.jpg
-│   ├── IMG_2708.jpg
-│   ├── ...
-│   └── IMG_2736.jpg
-└── images_2
-    ├── IMG_2707.png
-    ├── IMG_2708.png
+│   ├── block.py
+│   ├── normalization.py
+│   └── z_buffer_layers.py
+├── lmconv
+│   ├── IMG_2707.png
+│   ├── IMG_2708.png
+├── lmconv
+├── losses
+├── networks
+├── projection
+├── vqvae2
+├── base_model.py
+├── depth_model.py
+├── encoderdecoder.py
+├── z_buffermodel.py
 options
 scripts
 utils

@@ -59,6 +59,14 @@ docs
 evaluation
 geometry
 models
+├── layers
+│   ├── IMG_2707.jpg
+│   ├── IMG_2708.jpg
+│   ├── ...
+│   └── IMG_2736.jpg
+└── images_2
+    ├── IMG_2707.png
+    ├── IMG_2708.png
 options
 scripts
 utils

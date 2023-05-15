@@ -36,6 +36,7 @@ for allowing us to share frames from their datasets.
 Thanks to [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/) and [Ajay Jain](https://www.seas.upenn.edu/~nkolot/) for polished model repositories which were so helpful in this work. 
 
 ### Code Organization
+```
 statue
 ├── images
 │   ├── IMG_2707.jpg
@@ -53,3 +54,4 @@ statue
         ├── ...
         └── IMG_2736.png
 
+```
